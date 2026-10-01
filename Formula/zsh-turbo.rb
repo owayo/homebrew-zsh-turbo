@@ -5,21 +5,21 @@ class ZshTurbo < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/owayo/zsh-turbo/releases/download/v26.9.106/zsh-turbo-aarch64-apple-darwin.tar.gz"
-      sha256 "d9ff59c698684bdb5ec531815b6962d8517458c715a7add980e173e73a72d66c"
+      url "https://github.com/owayo/zsh-turbo/releases/download/v26.10.100/zsh-turbo-aarch64-apple-darwin.tar.gz"
+      sha256 "851e2ea6c09beb05b3d7e87acb01482a80d1c771dbfed5971063fb860b3875c3"
     else
-      url "https://github.com/owayo/zsh-turbo/releases/download/v26.9.106/zsh-turbo-x86_64-apple-darwin.tar.gz"
-      sha256 "69c310414c06735e92cf1a4a45341a5e1e04070a3aa4d6bf437d07d91415b7d2"
+      url "https://github.com/owayo/zsh-turbo/releases/download/v26.10.100/zsh-turbo-x86_64-apple-darwin.tar.gz"
+      sha256 "6cc9cb6a4a92882e824ba3a4b21f7ad7cbfed24c4dce051ad6ffe95bdd678758"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/owayo/zsh-turbo/releases/download/v26.9.106/zsh-turbo-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6bb906c723a4080f05847b100efcd34731d8719cfc0660ebf7886414195f69c9"
+      url "https://github.com/owayo/zsh-turbo/releases/download/v26.10.100/zsh-turbo-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "02f2e0bcb5985d53f51bcf225ec8e6d8fd51d754e851f1826d3098ea8fcd7788"
     else
-      url "https://github.com/owayo/zsh-turbo/releases/download/v26.9.106/zsh-turbo-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d9db2d42c7f841e6595e5e7bdef420453715cc1396f8130eb31d1d6ad0ca7aff"
+      url "https://github.com/owayo/zsh-turbo/releases/download/v26.10.100/zsh-turbo-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2a434f4f18d98d34a1d498acc5bbcf75f1fa57108996dc3c3ff89fb030d28433"
     end
   end
 
